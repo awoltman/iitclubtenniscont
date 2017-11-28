@@ -295,6 +295,6 @@ nav a {
 /* Layout for sub pages */
 
 #navigationtoolssub li {
-  width: 33.333333%;
+  width: 100%;
   float: left;
 }
