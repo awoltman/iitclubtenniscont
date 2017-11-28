@@ -53,11 +53,11 @@ h2 {
   color: black;
   font-weight: bold;
 }
-h1,h2,h3,p,h4,h5,h11,h12 {
+h1,h2,h3,p {
   padding-bottom: 1.222em;
 }
 
-h3,h4,h5,h7,h8,h9,h10,h11,h12 {
+h3 {
   color: black;
   font-weight: bold;
   padding-top: 1.222em; /* 22 / 18 = 1.222 */
@@ -278,4 +278,13 @@ nav a {
   grid-row: 1;
   }
 }
-  
+
+
+
+
+/* Layout for sub pages */
+
+#navigationtoolssub li {
+  width: 33.333333%;
+  float: left;
+}
