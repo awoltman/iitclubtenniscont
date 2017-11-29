@@ -24,7 +24,12 @@ html {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-#mainpicture, #teampicture {
+
+img {
+  display: block;
+  align-content: center;
+}
+#mainpicture, #teampicture, {
   display: block;
   max-width: 100%;
   max-height: 1vp;
@@ -297,4 +302,12 @@ nav a {
 #navigationtoolssub li {
   width: 100%;
   float: left;
+}
+
+#franklinspicture, #georgespicture, #connorspicture, #andrewspicture {
+  float: none;
+  max-width: 100%;
+  max-height: 1vp;
+  margin-left: auto;
+  margin-right: auto;
 }
