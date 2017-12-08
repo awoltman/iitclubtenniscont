@@ -29,8 +29,9 @@ img {
   display: block;
   align-content: center;
 }
-#mainpicture, #teampicture, {
-  display: block;
+#mainpicture, #teampicture {
+  align-content: center;
+  float: none;
   max-width: 100%;
   max-height: 1vp;
   margin-left: auto;
@@ -122,8 +123,7 @@ a:hover {
   width: 100%;
 }
 #navigationtools li {
-  width: 33.333333%;
-  float: left;
+  width: 33.333333%;float: left;
 }
 #tournaments {
   width: 100%;
@@ -327,7 +327,7 @@ nav a {
 
 }
 
-@media screen and (min-width: 500px)
+@media screen and (min-width: 700px)
 {
   .cssgrid #player {
     display: grid;
