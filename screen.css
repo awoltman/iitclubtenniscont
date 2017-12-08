@@ -311,3 +311,17 @@ nav a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.cssgrid #player {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+.cssgrid #photo {
+  grid-column: 1 ;
+
+}
+.cssgrid #info {
+  grid-column: 2 ;
+
+}
