@@ -22,7 +22,6 @@ html {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
 }
 
 img {
@@ -59,14 +58,15 @@ h2 {
   color: black;
   font-weight: bold;
 }
-h1,h2,h3,p {
-  padding-bottom: 1.222em;
+h1,h2,h3,p,h4 {
+  padding-bottom: 1em;
 }
 
-h3 {
+h3,h4 {
+  font-size: 1.25em;
   color: black;
   font-weight: bold;
-  padding-top: 1.222em; /* 22 / 18 = 1.222 */
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
 li {
@@ -308,7 +308,7 @@ nav a {
 #franklinspicture, #georgespicture, #connorspicture, #andrewspicture {
   float: none;
   max-width: 100%;
-  max-height: 1vp;
+  max-height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
