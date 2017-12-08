@@ -72,8 +72,9 @@ li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
 ul,ol {
+  font-weight: bold;
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  color: mediumblue;
+  color: black;
 }
 ul {
   list-style-type: square;
@@ -311,10 +312,10 @@ nav a {
   margin-left: auto;
   margin-right: auto;
 }
-
 .cssgrid #player {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   grid-column-gap: 30px;
 }
 .cssgrid #photo {
@@ -322,6 +323,23 @@ nav a {
 
 }
 .cssgrid #info {
-  grid-column: 2 ;
+  grid-row: 1 ;
 
+}
+
+@media screen and (min-width: 500px)
+{
+  .cssgrid #player {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+  .cssgrid #photo {
+    grid-column: 1 ;
+  
+  }
+  .cssgrid #info {
+    grid-column: 2 ;
+  
+  }
 }
